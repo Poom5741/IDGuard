@@ -7,3 +7,6 @@
 [submodule "identity_canister_project"]
 	path = identity_canister_project
 	url = https://github.com/Poom5741/identity_canister.git
+[submodule "kyc"]
+	path = kyc
+	url = https://github.com/Poom5741/kyc.git
