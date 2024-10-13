@@ -1,3 +1,6 @@
 [submodule "verify-id-ui"]
 	path = verify-id-ui
 	url = https://github.com/Poom5741/verify-id-ui.git
+[submodule "my_model_inference"]
+	path = my_model_inference
+	url = https://github.com/Poom5741/id_guard_llm_model.git
