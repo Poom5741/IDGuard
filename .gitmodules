@@ -1,0 +1,3 @@
+[submodule "verify-id-ui"]
+	path = verify-id-ui
+	url = https://github.com/Poom5741/verify-id-ui.git
