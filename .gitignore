@@ -1,0 +1,62 @@
+# Ignore Node.js dependencies (if any in the future)
+node_modules/
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore build artifacts
+/build
+/dist
+/out
+.next/
+
+# Ignore DFX (Internet Computer) artifacts
+.dfx/
+
+# Ignore Python environment files (for model_format)
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+*.tmp
+*.venv/
+*.virtualenv/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore temporary or system files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore AI model weights and large binary files
+# Specifically for model_format - ONNX weights
+*.onnx
+model.embed_tokens.weight
+model.layers.*
+onnx__MatMul_*
+onnx_convert/
+
+# Ignore the model_format directory files related to the ONNX model
+model_format/model.embed_tokens.weight
+model_format/onnx_convert/
+model_format/qwen2_5_1_5B_instruct.onnx
+
+# Ignore any other large binary files in model_format
+*.bin
+*.h5
+
+# Specific asset files
+src/ai-verification-frontend/assets/sample-asset.txt
