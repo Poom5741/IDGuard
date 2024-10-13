@@ -10,3 +10,6 @@
 [submodule "kyc"]
 	path = kyc
 	url = https://github.com/Poom5741/kyc.git
+[submodule "llama_cpp_canister"]
+	path = llama_cpp_canister
+	url = https://github.com/Poom5741/llama_cpp_canister.git
